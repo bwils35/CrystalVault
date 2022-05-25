@@ -7,6 +7,13 @@ function About() {
             <div>About</div>
         </>
     );
+MainPages
+	return (
+		<>
+			<div>About</div>
+
+		</>
+	);
 }
 
 export default About;
