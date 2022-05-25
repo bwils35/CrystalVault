@@ -30,7 +30,11 @@ function Navbar() {
 						</HamburgerButton>
 					</NavbarLinkContainer>
 				</LeftContainer>
-				<RightContainer></RightContainer>
+				<RightContainer>
+					<div className="header__container">
+						<h5>Welcome to...</h5>
+					</div>
+				</RightContainer>
 			</NavbarInnerContainer>
 			{extendNav && (
 				<NavbarExtendedContainer>

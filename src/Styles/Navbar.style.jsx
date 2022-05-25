@@ -6,16 +6,13 @@ export const NavbarContainer = styled.nav`
 	height: ${(props) => (props.extendNav ? "100%" : "80px")};
 	display: flex;
 	flex-direction: column;
-	/* margin: 15px; */
 	margin-bottom: 10px;
 	padding: 0.5rem 0rem;
 	border: 0;
 	border-radius: 50px 50px 50px 50px;
-	/* position: absolute;
-	left: 375px; */
-	background: linear-gradient(336deg, #ffce00, rgba(187, 60, 198, 0) 70.71%),
+	background: linear-gradient(336deg, #14f5f5, rgba(187, 60, 198, 0) 70.71%),
 		linear-gradient(127deg, #a823c69f, rgba(0, 255, 0, 0) 70.71%),
-		linear-gradient(217deg, #a823c69f, rgba(255, 0, 0, 0) 70.71%);
+		linear-gradient(217deg, #8b0df39f, rgba(255, 0, 0, 0) 70.71%);
 	box-shadow: 0 4px 2px 2px rgba(9, 9, 9, 0.23);
 	justify-content: center;
 `;
@@ -26,11 +23,16 @@ export const LeftContainer = styled.div`
 	align-items: center;
 	padding-left: 5%;
 `;
+
 export const RightContainer = styled.div`
 	flex: 30%;
 	display: flex;
 	justify-content: flex-end;
-	/* padding-right: 50px; */
+
+	.header__container {
+		color: red;
+		text-align: center;
+	}
 `;
 
 export const NavbarInnerContainer = styled.div`
@@ -67,8 +69,6 @@ export const Logo = styled.img`
 	height: 60px;
 `;
 export const StockerHeader = styled.header`
-	/* margin: 10px; */
-	/* max-width: 180px; */
 	height: auto;
 	width: auto;
 	text-align: center;
