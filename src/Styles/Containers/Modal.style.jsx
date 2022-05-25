@@ -4,6 +4,7 @@ export const Modal = styled.div`
 	width: 100%;
 	height: 100%;
 	background-color: black;
+	
 `;
 
 export const ModalContent = styled.div`
@@ -16,7 +17,7 @@ export const ModalContent = styled.div`
 
 export const SubmitButton = styled.button`
 	color: #aaa;
-	float: left;
+
 	font-weight: bold;
 	font-size: 26px;
 `;
