@@ -9,10 +9,7 @@ function About() {
 	return (
 		<>
 			<div>About</div>
-			<Modal>
-				<ModalContent>Product Place Holder</ModalContent>
-				<SubmitButton>Purcahse!</SubmitButton>
-			</Modal>
+
 		</>
 	);
 }
