@@ -19,7 +19,7 @@ function Navbar() {
 			<NavbarInnerContainer>
 				<LeftContainer>
 					<NavbarLinkContainer>
-						<NavbarLink to="/"></NavbarLink>
+						<NavbarLink to="/">Home</NavbarLink>
 						<NavbarLink to="/Contact">Contact</NavbarLink>
 						<HamburgerButton
 							onClick={() => {
@@ -34,8 +34,7 @@ function Navbar() {
 			</NavbarInnerContainer>
 			{extendNav && (
 				<NavbarExtendedContainer>
-					{/* <NavbarLinkExtended to="/">Home</NavbarLinkExtended> */}
-					<NavbarLinkExtended to="/"></NavbarLinkExtended>
+					<NavbarLinkExtended to="/">Home</NavbarLinkExtended>
 					<NavbarLinkExtended to="/Contact">
 						Contact
 					</NavbarLinkExtended>
