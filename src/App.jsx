@@ -4,7 +4,7 @@ import Header from "./Components/header/Header";
 import About from "./Pages/About/About";
 import Contact from "./Pages/Contact/Contact";
 import Main from "./Pages/Main/Main";
-import Navbar from "./Components/Navbar";
+import Navbar from "./StyledComponents/Navbar";
 import Footer from "./Components/footer/footer";
 
 function App() {
