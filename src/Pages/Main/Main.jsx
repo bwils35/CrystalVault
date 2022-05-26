@@ -1,9 +1,4 @@
 import React, { Component } from "react";
-import {
-	Modal,
-	ModalContent,
-	SubmitButton,
-} from "../Styles/Containers/Modal.style";
 import Select from "react-select";
 
 const submitHandler = (e) => {
@@ -41,10 +36,6 @@ function Main() {
 					</p>
 				</main>
 			</div>
-			<Modal>
-				<ModalContent>Product Place Holder</ModalContent>
-				<SubmitButton>Purchase!</SubmitButton>
-			</Modal>
 		</>
 	);
 }
