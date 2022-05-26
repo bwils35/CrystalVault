@@ -26,6 +26,7 @@ function About() {
 						<li><a href="">Incense</a></li>
 						<li><a href="">Clothing</a></li>
 						<li><a href="">Hot Offers</a></li>
+						<li><a href="">Test</a></li>
 					</ul>
 				</div>
 				<div className="image_carousel">
