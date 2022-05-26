@@ -1,4 +1,30 @@
 .view {
     height: 1200px;
-    background-color: aquamarine;
+    background-color: linear-gradient(blue, red);
+}
+
+.categories {
+    padding-top: 15px;
+    display: block;
+    list-style-type: none;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: yellow;
+}
+
+.categories>li {
+    display: inline-block;
+    padding: 20px;
+}
+
+.pic_one {
+    height: 450px;
 }
