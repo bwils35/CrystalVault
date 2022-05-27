@@ -1,13 +1,13 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
-import Footer from "./Components/Footer/Footer";
-import Header from "./Components/Header/Header";
+import Footer from "./Components/footer/Footer";
+import Header from "./Components/header/Header";
 import Contact from "./Pages/Contact/Contact";
 import Home from "./Pages/Home/Home";
 import Navbar from "./Components/StyledComponents/Navbar/Navbar";
 import Shop from "./Pages/Shop/Shop";
 import Login from "./Pages/Login/Login";
-import { PageLayout } from "./Components/StyledComponents/PageLayout/PageLayout";
+
 
 function App() {
 	return (

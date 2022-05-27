@@ -21,22 +21,45 @@ function About() {
 			<div className="view">
 				<div className="">
 					<ul className="categories">
-						<li>
-							<a href="">Jewelery</a>
+						<li className="dropdown">
+							<a className="simbutton" href="">Jewelery</a>
+							<div>
+								<a href="">Mens Jew</a>
+								<a href="">Womens Jew</a>
+							</div>
 						</li>
-						<li>
-							<a href="">Crystal's</a>
+						<li className="dropdown">
+							<a className="simbutton" href="">Crystal's</a>
+							<div>
+								<a href="">Rose Quartz</a>
+								<a href="">Obsidian</a>
+								<a href="">Jasper</a>
+							</div>
 						</li>
-						<li>
-							<a href="">Sage</a>
+						<li className="dropdown">
+							<a className="simbutton" href="">Sage</a>
+							<div>
+								<a href="">White Sage</a>
+								<a href="">Blue Sage</a>
+								<a href="">Desert Sage</a>
+							</div>
 						</li>
-						<li>
-							<a href="">Incense</a>
+						<li className="dropdown">
+							<a className="simbutton" href="">Incense</a>
+							<div>
+								<a href="">Traditional Sticks</a>
+								<a href="">Biggies</a>
+								<a href="">Shorties</a>
+							</div>
 						</li>
-						<li>
-							<a href="">Clothing</a>
+						<li className="dropdown">
+							<a className="simbutton" href="">Clothing</a>
+							<div>
+								<a href="">Mens Clothing</a>
+								<a href="">Womens Clothing</a>
+							</div>
 						</li>
-						<li>
+						<li className="dropdown">
 							<a href="">Hot Offers</a>
 						</li>
 					</ul>
