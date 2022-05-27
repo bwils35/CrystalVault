@@ -5,6 +5,7 @@ import CrystalPic from "../../Images/CrystalPic.jpg";
 import SagePic from "../../Images/SagePic.jpg";
 import IncensePic from "../../Images/IncensePic.jpg";
 import ClothingPic from "../../Images/ClothingPic.jpg";
+import { useNavigate } from "react-router-dom";
 
 const breakPoints = [
 	{ width: 1, itemsToShow: 1 },
@@ -13,6 +14,7 @@ const breakPoints = [
 	{ width: 1200, itemsToShow: 4 },
 ];
 
+// TODO: change About to Home
 function About() {
 	return (
 		<>
