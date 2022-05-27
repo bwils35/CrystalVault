@@ -1,11 +1,12 @@
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Header from "./Components/header/Header";
-import About from "./Pages/About/About";
-import Contact from "./Pages/Contact/Contact";
-import Main from "./Pages/Main/Main";
-import Navbar from "./Components/Navbar";
 import Footer from "./Components/footer/footer";
+import Header from "./Components/header/Header";
+import Contact from "./Pages/Contact/Contact";
+import Home from "./Pages/Home/Home";
+import Navbar from "./StyledComponents/Navbar";
+import Shop from "./Pages/Shop/Shop";
+import Login from "./Pages/Login/Login";
 
 function App() {
 	return (
@@ -15,9 +16,10 @@ function App() {
 					<Navbar />
 					<Header />
 					<Routes>
-						<Route path="/" element={<About />} />
+						<Route path="/" element={<Home />} />
 						<Route path="/Contact" element={<Contact />} />
-						<Route path="/Main" element={<Main />} />
+						<Route path="/Main" element={<Shop />} />
+						<Route path="/Login" element={<Login />} />
 					</Routes>
 					<Footer />
 				</Router>
