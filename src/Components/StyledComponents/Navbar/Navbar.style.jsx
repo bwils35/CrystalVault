@@ -10,7 +10,7 @@ export const NavbarContainer = styled.nav`
 	margin-bottom: 10px;
 	padding: 0.5rem 0rem;
 	border: 0;
-	border-radius: 50px 50px 50px 50px;
+	border-radius: 2px 2px 2px 2px;
 	/* position: absolute;
 	left: 375px; */
 	background: linear-gradient(336deg, #ffce00, rgba(187, 60, 198, 0) 70.71%),
@@ -26,6 +26,7 @@ export const LeftContainer = styled.div`
 	align-items: center;
 	padding-left: 5%;
 `;
+
 export const RightContainer = styled.div`
 	flex: 30%;
 	display: flex;
