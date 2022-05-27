@@ -1,0 +1,68 @@
+.login_form {
+	display: flex;
+	flex-direction: column;
+	/* justify-content: center; */
+	align-items: center;
+	height: 60vh;
+}
+.login_form form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 20vw;
+	height: 50vh;
+	background: linear-gradient(217deg, #ffce00, rgba(187, 60, 198, 0) 70.71%),
+		linear-gradient(127deg, rgb(192, 63, 218), rgba(0, 255, 0, 0) 70.71%),
+		linear-gradient(336deg, rgb(192, 63, 218), rgba(255, 0, 0, 0) 70.71%);
+	border-radius: 10px;
+	padding: 20px;
+	border: 1px solid black;
+	box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.747);
+}
+h1 {
+	color: white;
+}
+input {
+	width: 70%;
+	height: 30px;
+	border-radius: 8px;
+	border: 1px solid black;
+	padding: 5px;
+	box-shadow: 1px 0px 1px 1px rgba(0, 0, 0, 0.747);
+}
+label {
+	width: 70%;
+	height: 30px;
+	padding: 5px;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+	/* border-radius: 8px; */
+	/* border: 1px solid black; */
+}
+button {
+	width: 50%;
+	height: 40px;
+	margin-top: 50px;
+	border-radius: 8px;
+	background: #ffce00;
+	color: #000000;
+	font-size: 20px;
+	font-weight: bold;
+	border: none;
+	cursor: pointer;
+	box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.747);
+	background-image: linear-gradient(
+		to right,
+		#ffce00 50%,
+		#ffce00 50%,
+		rgb(192, 63, 218)
+	);
+	background-position: 0%;
+	background-size: 200%;
+	transition: 0.4s;
+}
+button:hover {
+	background-position: 100% 0%;
+}
