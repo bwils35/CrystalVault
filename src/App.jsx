@@ -7,7 +7,7 @@ import Home from "./Pages/Home/Home";
 import Navbar from "./Components/StyledComponents/Navbar/Navbar";
 import Shop from "./Pages/Shop/Shop";
 import Login from "./Pages/Login/Login";
-
+import { PageLayout } from "./Components/StyledComponents/PageLayout/PageLayout";
 
 function App() {
 	return (
@@ -21,7 +21,7 @@ function App() {
 						<Route path="/Contact" element={<Contact />} />
 						<Route path="/Main" element={<Shop />} />
 						<Route path="/Login" element={<Login />} />
-						{/* <Route path="/Jewelry" element={<PageLayout />} /> */}
+						<Route path="/Jewelry" element={<PageLayout />} />
 						{/* <Route path="/Crystals" element={<PageTemplate key={} />} /> */}
 						{/* <Route path="/Sage" element={<PageTemplate key={} />} /> */}
 					</Routes>

@@ -7,7 +7,7 @@ import {
 	Image,
 } from "./PageLayout.style";
 import CrystalPic from "../../../Images/CrystalPic.jpg";
-import Header from "../../Header/Header";
+import Header from "../../header/Header";
 
 export const PageLayout = () => {
 	return (
