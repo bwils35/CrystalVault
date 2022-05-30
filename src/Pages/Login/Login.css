@@ -1,7 +1,7 @@
-.login_form {
+/* .login_form {
 	display: flex;
 	flex-direction: column;
-	/* justify-content: center; */
+	justify-content: center;
 	align-items: center;
 	height: 60vh;
 }
@@ -38,8 +38,8 @@ label {
 	font-size: 20px;
 	font-weight: bold;
 	color: white;
-	/* border-radius: 8px; */
-	/* border: 1px solid black; */
+	border-radius: 8px;
+	border: 1px solid black;
 }
 button {
 	width: 50%;
@@ -65,4 +65,4 @@ button {
 }
 button:hover {
 	background-position: 100% 0%;
-}
+} */
