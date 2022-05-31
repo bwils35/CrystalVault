@@ -31,7 +31,9 @@ function Navbar() {
 						</HamburgerButton>
 					</NavbarLinkContainer>
 				</LeftContainer>
-				<RightContainer></RightContainer>
+				<RightContainer>
+					<NavbarLink to="/Login">SIGN IN</NavbarLink>
+				</RightContainer>
 			</NavbarInnerContainer>
 			{extendNav && (
 				<NavbarExtendedContainer>
