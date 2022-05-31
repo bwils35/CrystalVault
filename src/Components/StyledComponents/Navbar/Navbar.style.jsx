@@ -31,7 +31,8 @@ export const RightContainer = styled.div`
 	flex: 30%;
 	display: flex;
 	justify-content: flex-end;
-	/* padding-right: 50px; */
+	align-items: center;
+	padding-right: 50px;
 `;
 
 export const NavbarInnerContainer = styled.div`
