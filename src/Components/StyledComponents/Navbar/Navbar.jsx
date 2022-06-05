@@ -33,6 +33,7 @@ function Navbar() {
 				</LeftContainer>
 				<RightContainer>
 					<NavbarLink to="/Login">SIGN IN</NavbarLink>
+					<NavbarLink to="/Cart">CART</NavbarLink>
 				</RightContainer>
 			</NavbarInnerContainer>
 			{extendNav && (

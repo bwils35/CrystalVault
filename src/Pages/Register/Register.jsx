@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { mobile } from "../../Components/StyledComponents/MediaQueries/responsive";
+import { mobile } from "../../Components/StyledComponents/mediaQueries/Responsive";
 
 const Container = styled.div`
 	width: 100%;

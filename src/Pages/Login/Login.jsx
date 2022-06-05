@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { useNavigate } from "react-router-dom";
-import { mobile } from "../../Components/StyledComponents/MediaQueries/responsive";
+import { mobile } from "../../Components/StyledComponents/mediaQueries/Responsive";
 
 const Container = styled.div`
 	width: 100%;
